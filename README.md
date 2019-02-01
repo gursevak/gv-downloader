@@ -1,6 +1,6 @@
 # GV Downloader
 
-This is a really simple bash shell script that I made to quickly download katha from [gurmatveechar.com], but it can be used on any site that lets you download playlist files.
+This is a really simple bash shell script that I made to quickly download katha playlists from [gurmatveechar.com](https://www.gurmatveechar.com), but it can be used on any site that lets you download playlist files.
 
 # Usage
 
