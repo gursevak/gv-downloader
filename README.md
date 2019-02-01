@@ -1,6 +1,8 @@
 # GV Downloader
 
-This is a really simple bash shell script that I made to quickly download katha playlists from [gurmatveechar.com](https://www.gurmatveechar.com), but it can be used on any site that lets you download playlist files.
+This is a really simple bash shell script that I made to quickly download large amounts katha from [gurmatveechar.com](https://www.gurmatveechar.com) and keertan from various websites that support playlists.
+
+It can be used to download the contents of any m3u playlist file, and keeps track of the files that have completed in the playlist, allowing you to pause and continue your batch download as you wish.
 
 # Usage
 
@@ -8,4 +10,17 @@ This is a really simple bash shell script that I made to quickly download katha 
 
 2. Open the `download.sh` file using `Terminal.app` or your bash terminal of choice (right-click > Open As)
 
-3. Follow the prompts and start downloading. You can quit the program at any time by pressing `CTR+C` (^+C) on your keyboard at any time. When you restart, the program will automatically begin with the file that you left off at (and remove downloaded files from `playlist.m3u`). Enjoy!
+Alternatively (or if the above method isn't working), open `Terminal.app` and navigate to the downloaded directory:
+`cd ~/Downloads/gv-downloader` (or wherever other location you cloned/downloaded the script to).
+
+You may need to change the file's permissions to run the script:
+`chmod a+x download.sh`
+
+then run it using 
+`./download.sh`
+
+3. Follow the on-screen prompts and begin downloading. You can quit the program at any time by pressing `CTR+C` (^+C) on your keyboard. 
+
+When you restart, the program will automatically begin with the file that you left off at (and remove downloaded files from `playlist.m3u`).
+
+Enjoy!
