@@ -1,8 +1,8 @@
 # GV Downloader
 
-This is a really simple bash shell script that I made to quickly download large amounts katha from [gurmatveechar.com](https://www.gurmatveechar.com) and keertan from various websites that support playlists.
+This is a really simple bash shell script that I made to quickly download large amounts of katha from [gurmatveechar.com](https://www.gurmatveechar.com) and keertan from various websites that support playlists.
 
-It can be used to download the contents of any m3u playlist file, and keeps track of the files that have completed in the playlist, allowing you to pause and continue your batch download as you wish.
+It can be used to download the contents of any m3u playlist file, and keeps track of the files that have completed in the playlist, allowing you to pause and continue your batch download as you wish. You don't need to know anything about programming in order to use this script.
 
 The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Guru Granth Sahib Ji Katha by Sant Gurbachan Singh Ji Bhindranwale](http://www.gurmatveechar.com/audio.php?q=f&f=%2FKatha%2F01_Puratan_Katha%2FSant_Gurbachan_Singh_%28Bhindran_wale%29%2FGuru_Granth_Sahib_Larivaar_Katha)
 
@@ -12,13 +12,14 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 2. Open the `download.sh` file using `Terminal.app` or your bash terminal of choice (right-click > Open As).
 
-Alternatively (or if the above method isn't working), open `Terminal.app` and navigate to the downloaded directory:
-`cd ~/Downloads/gv-downloader` (or wherever other location you cloned/downloaded the script to).
+Alternatively (or if the above method isn't working), open `Terminal.app` and navigate to the downloaded directory by typing
+`cd ~/Downloads/gv-downloader`
+(or wherever you saved the script to).
 
-You may need to change the file's permissions to run the script:
+You may need to change the file's permissions to run the script. To do this, type 
 `chmod a+x download.sh`
 
-then run it using 
+then run the script by typing 
 `./download.sh`
 
 3. Follow the on-screen prompts and begin downloading. You can quit the program at any time by pressing `CTR+C` (^+C) on your keyboard. 
