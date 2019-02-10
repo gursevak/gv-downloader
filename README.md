@@ -1,6 +1,6 @@
 # GV Downloader
 
-This is a really simple bash shell script that I made to quickly download large amounts of katha from [gurmatveechar.com](https://www.gurmatveechar.com) and keertan from various websites that support playlists.
+This is a really simple bash shell script that I made to quickly download large amounts of katha from [gurmatveechar.com](https://www.gurmatveechar.com) and keertan from various websites that support m3u playlists.
 
 It can be used to download the contents of any m3u playlist file, and keeps track of the files that have completed in the playlist, allowing you to pause and continue your batch download as you wish. You don't need to know anything about programming in order to use this script.
 
