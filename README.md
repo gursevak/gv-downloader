@@ -12,9 +12,9 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 **Instructions are for MacOS
 
-1. Download or clone the repository and replace the provided `.m3u` file with the `playlist.m3u` file that has the tracks you want to download. Playlist files can usually be downloaded from katha/keertan websites: navigate to the folder or playlist that you want to download and look for the green 'play button' icon at the top of the folder.
+1. Download or clone the repository and replace the provided `.m3u` file with the `playlist.m3u` file that has the tracks you want to download. Playlist files can usually be downloaded from katha/keertan websites: go to the folder or playlist that you want to download and look for the green 'play button' icon at the top of the folder.
 
-2. Open the `download.sh` file using `Terminal.app` or your bash terminal of choice (right-click > Open With).
+2. Open the `download.sh` file using `Terminal.app` or your bash terminal of choice (right-click file > Open With; the Terminal app is hidden away in the Utilities folder, /Applications/Utilities).
 
 Alternatively (or if the above method isn't working), open `Terminal.app` and navigate to the downloaded directory by typing
 `cd ~/Downloads/gv-downloader`
