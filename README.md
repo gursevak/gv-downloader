@@ -12,22 +12,18 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 **Instructions are for MacOS
 
-1. Download the repo using the link above, unzip the folder and replace the provided `.m3u` file with the `playlist.m3u` file that has the tracks you want to download. Playlist files can usually be downloaded from katha/keertan websites: go to the folder or playlist that you want to download and look for the green 'play button' icon at the top of the folder.
+1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
-2. Open `Terminal.app` (/Applications/Utilities or search for it) and drag-and-drop the `download.sh` file into the Terminal window to open it.
+2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded.
 
-Alternatively (or if the above method isn't working), open `Terminal.app` and navigate to the downloaded directory by typing
-`cd ~/Downloads/gv-downloader`
-(or wherever you saved the script to).
+2. Open `Terminal.app` (from the /Applications/Utilities folder or search for it using Spotlight) and drag-and-drop the `download.sh` file into the Terminal window to open it.
 
-You *may* need to change the file's permissions to run the script. To do this, type 
-`chmod a+x download.sh`
+3. Follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard. 
 
-then run the script by typing 
-`./download.sh`
-
-3. Follow the on-screen prompts and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard. 
-
-When you restart, the program will automatically begin with the file that you left off at (and remove downloaded files from `playlist.m3u`).
+When you restart, the program will automatically begin with the file that you left off at (and remove the already downloaded files from `playlist.m3u`).
 
 Enjoy!
+
+
+**You *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal 
+`cd "$(dirname "$0")" chmod a+x download.sh` and press enter.
