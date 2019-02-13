@@ -1,8 +1,10 @@
 #!/bin/bash
 
+cd "$(dirname "$0")"
 FILENAME=playlist.m3u
 LINECOUNT=$(wc -l < "$FILENAME")
 COUNTER=0
+echo "ਵਾਹਿਗੁਰੂਜੀਕਾਖ਼ਾਲਸਾਵਾਹਿਗੁਰੂਜੀਕੀਫ਼ਤਿਹ॥ Welcome to gv-downloader. This script will download files to the folder printed above."
 echo "There are $LINECOUNT audio tracks in this playlist."
 read -p "Are you sure you want to download them all? [Y/n]" -n 1 -r
 echo
