@@ -18,7 +18,7 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 2. Open `Terminal.app` (from the /Applications/Utilities folder or search for it using Spotlight) and drag-and-drop the `download.sh` file into the Terminal window to open it.
 
-3. Follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard. 
+3. Press the `Enter` key once. Then follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard. 
 
 When you restart, the program will automatically begin with the file that you left off at (and remove the already downloaded files from `playlist.m3u`).
 
