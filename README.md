@@ -10,15 +10,15 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 # Usage
 
-**Instructions are for MacOS
+******These instructions are tested on Mac only. If you're using Windows, download and install [Cygwin](https://www.cygwin.com/). Then, in Step 3, use Cygwin instead of Terminal.app. You won't be able to pause and resume (for now) so make sure you give enough time for your download to finish, or you'll have to start from scratch. 
 
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
 2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded.
 
-2. Open `Terminal.app` (from the /Applications/Utilities folder or search for it using Spotlight) and drag-and-drop the `download.sh` file into the Terminal window to open it.
+3. Open `Terminal.app` (from the /Applications/Utilities folder or search for it using Spotlight) and drag-and-drop the `download.sh` file into the Terminal window to open it.
 
-3. Press the `Enter` key once. Then follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard. 
+4. Press the `Enter` key once. Then follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard (on Windows, just close the Cygwin window).
 
 When you restart, the program will automatically begin with the file that you left off at (and remove the already downloaded files from `playlist.m3u`).
 
