@@ -25,5 +25,5 @@ When you restart, the program will automatically begin with the file that you le
 Enjoy!
 
 
-**You *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal 
+**If the script isn't running, you *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal 
 `cd "$(dirname "$0")" chmod a+x download.sh` and press enter.
