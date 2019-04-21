@@ -1,6 +1,6 @@
 # GV Downloader
 
-This is a really simple shell script that I wrote to quickly download large amounts of katha and keertan from [gurmatveechar.com](https://www.gurmatveechar.com) and other websites.
+This script allows you to quickly download large amounts of katha and keertan from [gurmatveechar.com](https://www.gurmatveechar.com) and other websites.
 
 ***You don't need to know anything about programming in order to use this script.
 
