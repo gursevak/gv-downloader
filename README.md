@@ -2,15 +2,28 @@
 
 This script allows you to quickly download large amounts of katha and keertan from [gurmatveechar.com](https://www.gurmatveechar.com) and other websites.
 
-***You don't need to know anything about programming in order to use this script.
+***You don't need to know anything about code to use this script
 
 It works with any m3u playlist file and allows batch downloading of all the files in the playlist, as well as pausing and resuming.
 
 The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Guru Granth Sahib Ji Katha by Sant Giani Gurbachan Singh Ji Bhindranwale](http://www.gurmatveechar.com/audio.php?q=f&f=%2FKatha%2F01_Puratan_Katha%2FSant_Gurbachan_Singh_%28Bhindran_wale%29%2FGuru_Granth_Sahib_Larivaar_Katha)
 
+## Known Supported Websites
+
+- [gurmatveechar.com](http://www.gurmatveechar.com/)
+- [sgpc.net](http://sgpc.net/)
+- [sikhvibes.com](http://www.sikhvibes.com/)
+- [gurbaniupdesh.org](http://www.gurbaniupdesh.org/)
+- [sikhsoul.com](http://sikhsoul.com/)
+- [japtapsamagams.com](https://www.japtapsamagams.com/)
+- [gurunanakacademy.com](http://gurunanakacademy.com)
+- [rajkaregakhalsa.net](https://www.rajkaregakhalsa.net/)
+
+Support for websites that use direct download links will be added in the future
+
 # Usage
 
-******These instructions are tested on Mac only. If you're using Windows, download and install [Cygwin](https://www.cygwin.com/). Then, in Step 3, use Cygwin instead of Terminal.app. You won't be able to pause and resume (for now) so make sure you give enough time for your download to finish, or you'll have to start from scratch. 
+******These instructions are tested on Mac only. If you're using Windows, download and install [Cygwin](https://www.cygwin.com/). Then, in Step 3, use Cygwin instead of Terminal.app. Pause and resume won't work so make sure you give enough time for your download to finish.
 
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
