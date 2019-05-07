@@ -1,6 +1,6 @@
 # GV Downloader
 
-Quickly download large amounts of katha and keertan from [gurmatveechar.com](https://www.gurmatveechar.com) and other websites with one click
+Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click
 
 ## Supported Websites
 
