@@ -2,6 +2,8 @@
 
 Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click
 
+[Original Project by Irvanjit Singh](https://github.com/irvanjitsingh/gv-downloader)
+
 ## Supported Websites
 
 - [gurmatveechar.com](http://www.gurmatveechar.com/)
