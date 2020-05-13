@@ -43,7 +43,7 @@ Enjoy
 **If the script isn't running, you *may* need to change the file's permissions to run the script. Please also confirm that your playlist file is named exactly as `playlist.m3u`.
 
 
-## Mac Instructions [Original Project by Irvanjit Singh](https://github.com/irvanjitsingh/gv-downloader)
+## Mac Instructions [Project by Irvanjit Singh](https://github.com/irvanjitsingh/gv-downloader)
 
 ***This program is easy to use. No coding knowledge necessary!
 
