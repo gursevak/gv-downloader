@@ -5,6 +5,8 @@ from urllib.request import urlopen
 import requests
 import easygui
 
+yes_list = ["Y", "y", "yes", "Yes", "YES"]
+no_list = ["N", "n", "no", "No", "NO"]
 
 
 print ("Vaheguru Jee Kaa Khalsa Vaheguru Jee Kee Fateh")
@@ -15,10 +17,26 @@ input("The downloader will now ask you to select the playlist.m3u file you have 
 path = easygui.fileopenbox()
       
     
-print ("Reading File")
 file = open (path, "r")
 contents = file.read()
+print (("Reading File ") + (os.path.basename(file.name)))
 
+
+
+if (os.path.basename(file.name)) != "playlist.m3u":
+    print (("You selected the file ") + (os.path.basename(file.name)))
+    oui = input ("Are you sure this is the file you meant to select? If yes, the downloader will continue. If no, you will be prompted to select a file again.")
+
+    if oui in yes_list:
+        pass
+    elif oui in no_list:
+        path = easygui.fileopenbox()
+
+        file = open (path, "r")
+        contents = file.read()
+
+else:
+    pass
     
 split_lines = contents.split()
 
