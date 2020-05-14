@@ -28,13 +28,12 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
-2. Download the `GVDOWNLOADER1.1.1` release [click here](https://github.com/themanjotsingh/gv-downloader/releases/tag/1.1.1).
+2. Download the `GVDOWNLOADER1.1.2` release [click here](https://github.com/themanjotsingh/gv-downloader/releases/tag/1.1.2).
 
-3. Run `GVDOWNLOADER1.1.1.exe`. Follow the on screen prompts. It will ask you to locate the playlist.m3u file you downloaded earlier.
+3. Run `GVDOWNLOADER1.1.2.exe`. Follow the on screen prompts. It will ask you to locate the playlist.m3u file you downloaded earlier. It will then ask you to choose which folder to save the downloaded files into.
 
-4. When asked, enter a name for the sub-directory that you would like to create to put this playlist's files in.
+4. Enjoy
 
-5. Enjoy
 
 
 ## Mac Instructions [Project by Irvanjit Singh](https://github.com/irvanjitsingh/gv-downloader)
