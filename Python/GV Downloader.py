@@ -25,7 +25,7 @@ print (("Reading File ") + (os.path.basename(file.name)))
 
 if (os.path.basename(file.name)) != "playlist.m3u":
     print (("You selected the file ") + (os.path.basename(file.name)))
-    oui = input ("Are you sure this is the file you meant to select? If yes, the downloader will continue. If no, you will be prompted to select a file again.")
+    oui = input ("Are you sure this is the file you meant to select? If yes, the downloader will continue. If no, you will be prompted to select a file again.  ")
 
     if oui in yes_list:
         pass
