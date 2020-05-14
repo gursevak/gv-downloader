@@ -2,8 +2,6 @@
 
 Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click
 
-[Original Project by Irvanjit Singh](https://github.com/irvanjitsingh/gv-downloader)
-
 ## Supported Websites
 
 - [gurmatveechar.com](http://www.gurmatveechar.com/)
@@ -28,7 +26,7 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 Prerequisites
 Python 3.5 or later
 
-1. 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
+1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
 2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded in the `Python` Folder.
 
@@ -47,11 +45,11 @@ Enjoy
 
 ***This program is easy to use. No coding knowledge necessary!
 
-******These instructions are tested on Mac only. WINDOWS USERS: to use this version, download and install [Cygwin](https://www.cygwin.com/) first. Then, in Step 3, use Cygwin instead of 'Terminal.app'. Pause and resume won't work so make sure you give enough time for your download to finish.
+******These instructions are tested on Mac only. WINDOWS USERS: download and install [Cygwin](https://www.cygwin.com/) first. Then, in Step 3, use Cygwin instead of 'Terminal.app'. Pause and resume won't work so make sure you give enough time for your download to finish.
 
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
-2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded.
+2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded in the `Terminal` Folder.
 
 3. Open `Terminal.app` (from the /Applications/Utilities folder or search for it using Spotlight) and drag-and-drop the `download.sh` file into the Terminal window to open it.
 
