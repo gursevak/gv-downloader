@@ -89,3 +89,9 @@ Enjoy
 3. Right click on `Powershell.ps1` and then click on "Run with Powershell" in the Right Click Context Menu.
 
 Enjoy
+
+
+-----------------------
+Windows executable made with [Auto PY to EXE](https://github.com/brentvollebregt/auto-py-to-exe)
+
+Uses [tqdm](https://github.com/tqdm/tqdm) [easygui](https://easygui.readthedocs.io/en/master/) [requests](https://requests.readthedocs.io/en/master/)
