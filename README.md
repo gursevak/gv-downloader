@@ -2,6 +2,8 @@
 
 Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click
 
+[Original Project by Irvanjit Singh](https://github.com/irvanjitsingh/gv-downloader)
+
 ## Supported Websites
 
 - [gurmatveechar.com](http://www.gurmatveechar.com/)
@@ -45,7 +47,7 @@ Enjoy
 
 ***This program is easy to use. No coding knowledge necessary!
 
-******These instructions are tested on Mac only. WINDOWS USERS: download and install [Cygwin](https://www.cygwin.com/) first. Then, in Step 3, use Cygwin instead of 'Terminal.app'. Pause and resume won't work so make sure you give enough time for your download to finish.
+******These instructions are tested on Mac only. WINDOWS USERS: to use this version, download and install [Cygwin](https://www.cygwin.com/) first. Then, in Step 3, use Cygwin instead of 'Terminal.app'. Pause and resume won't work so make sure you give enough time for your download to finish.
 
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
