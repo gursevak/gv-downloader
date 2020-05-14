@@ -1,9 +1,6 @@
 import os.path
-from tqdm import tqdm
 import urllib.request
 from urllib.request import urlopen
-import requests
-
 
 print ("Vaheguru Jee Kaa Khalsa Vaheguru Jee Kee Fateh")
 print ("gw-downloader")
