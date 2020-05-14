@@ -58,9 +58,6 @@ Enjoy!
 
 ## Python Version Instructions
 
-Prerequisites
-Python 3.5 or later
-
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
 2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded in the `Python` Folder.
@@ -75,10 +72,6 @@ Enjoy
 
 **If the script isn't running, you *may* need to change the file's permissions to run the script. Please also confirm that your playlist file is named exactly as `playlist.m3u`.
 
-
-
-**If the script isn't running, you *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal 
-`cd "$(dirname "$0")" chmod a+x download.sh` and press enter.
 
 ## Windows Powershell Intructions
 
