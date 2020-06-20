@@ -1,4 +1,4 @@
-# GV Downloader
+# Gurmat Veechar Downloader
 
 Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click
 
