@@ -28,12 +28,15 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
-2. Download the `GVDOWNLOADER1.1.2` release [click here](https://github.com/themanjotsingh/gv-downloader/releases/tag/1.1.2).
+2. Download the `GVDOWNLOADER1.2.1` release [click here](https://github.com/themanjotsingh/gv-downloader/releases/tag/1.2.1). Ignore warnings from your web browser or Windows Defender. It shows this because of the exe not being signed as well as not being a commonly downloaded file (generally speaking).
 
-3. Run `GVDOWNLOADER1.1.2.exe`. Follow the on screen prompts. It will ask you to locate the playlist.m3u file you downloaded earlier. It will then ask you to choose which folder to save the downloaded files into.
+3. Run `GVDOWNLOADER1.2.1.exe`. Follow the on screen prompts.
 
-4. Enjoy
+4. When asked, locate the playlist.m3u file you downloaded earlier.
 
+4. When asked, enter a name for the sub-directory that you would like to create to put this playlist's files in.
+
+5. The downloader will begin downloading files into the directory you chose. It will also check if that file already exists before downloading again in case you need to stop downloading for whatever reason and need to resume later on therefore having to not redownload already downloaded files.
 
 
 ## Mac Instructions [Project by Irvanjit Singh](https://github.com/irvanjitsingh/gv-downloader)
@@ -57,20 +60,30 @@ Enjoy!
 
 ## Python Version Instructions
 
+Prerequisites
+Python 3.5 or later
+
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
 2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded in the `Python` Folder.
 
-3. Run the `GV Downloader.py` file.
+3. Run the `GV Downloader.py` file. Follow the on screen prompts. 
 
-4. Confirm that the playlist file that you wish to download files for is in the same directory to the prompt.
+4. When asked, locate the playlist.m3u file you downloaded earlier.
 
-5. Enter a name for the sub-directory that you would like to create to put this playlist's files in.
+5. When asked, enter a name for the sub-directory that you would like to create to put this playlist's files in.
+
+5. The downloader will begin downloading files into the directory you chose. It will also check if that file already exists before downloading again in case you need to stop downloading for whatever reason and need to resume later on therefore having to not redownload already downloaded files.
+
 
 Enjoy
 
 **If the script isn't running, you *may* need to change the file's permissions to run the script. Please also confirm that your playlist file is named exactly as `playlist.m3u`.
 
+
+
+**If the script isn't running, you *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal 
+`cd "$(dirname "$0")" chmod a+x download.sh` and press enter.
 
 ## Windows Powershell Intructions
 
