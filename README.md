@@ -71,7 +71,7 @@ Python 3.5 or later
 
 4. When asked, locate the playlist.m3u file you downloaded earlier.
 
-5. When asked, enter a name for the sub-directory that you would like to create to put this playlist's files in.
+5. When asked, select the folder that you would like to create to put this playlist's files in.
 
 5. The downloader will begin downloading files into the directory you chose. It will also check if that file already exists before downloading again in case you need to stop downloading for whatever reason and need to resume later on therefore having to not redownload already downloaded files.
 
