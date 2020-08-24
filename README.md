@@ -50,6 +50,7 @@ Go to Settings > Update & Security > For Developers. Check the Developer Mode ra
 3. Open `Terminal.app` (from the /Applications/Utilities folder or search for it using Spotlight) and drag-and-drop the `download.sh` file into the Terminal window to open it. 
 
 **WINDOWS 10 USERS: Use Command Prompt instead of Terminal**
+
 **OTHER WINDOWS USERS: Use Cygwin instead of Terminal**
 
 4. Press the `Enter` key once. Then follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard (on Windows, just close the Cygwin window).
