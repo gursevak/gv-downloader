@@ -1,6 +1,6 @@
 # GV Downloader
 
-Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click
+Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click.
 
 ## Supported Websites
 
@@ -13,7 +13,7 @@ Quickly download large amounts of katha and keertan from GurmatVeechaar.com and 
 - [gurunanakacademy.com](http://gurunanakacademy.com)
 - [rajkaregakhalsa.net](https://www.rajkaregakhalsa.net/)
 
-Support for websites that use direct download links will be added in the future
+Support for websites that use direct download links will be added in the future.
 
 ## About
 
@@ -25,9 +25,9 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 ## Setup
 
-### Mac
+### MacOS
 
-No setup required. Skip to *Using the Script* instructions below
+No setup required. Skip to *Using the Script* instructions below.
 
 ### Windows 10
 
@@ -47,18 +47,15 @@ Go to Settings > Update & Security > For Developers. Check the Developer Mode ra
 
 2. Download the script using the link above (Download ZIP), unzip the folder and replace the provided `playlist.m3u` file with the file that you just downloaded.
 
-3. Open `Terminal.app` (from the /Applications/Utilities folder or search for it using Spotlight) and drag-and-drop the `download.sh` file into the Terminal window to open it. 
+3. Open `Terminal.app` (or `Command Prompt` for Windows 10 or `Cygwin` for Windows 8 and older) and drag-and-drop the `download.sh` file into the Terminal window to open it. Terminal: Applications/Utilities (or search for it). Command Prompt: Start Menu > Windows System. Cygwin should also be in the Start Menu.
 
-**WINDOWS 10 USERS: Use Command Prompt instead of Terminal**
+4. Press the `Enter` key once. Then follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard or by closing the window.
 
-**OTHER WINDOWS USERS: Use Cygwin instead of Terminal**
-
-4. Press the `Enter` key once. Then follow the on-screen instructions and begin downloading. You can quit the program at any time by pressing `CTR+C` (`^+C`) on your keyboard (on Windows, just close the Cygwin window).
-
-When you restart, the program will automatically begin with the file that you left off at (and remove the already downloaded files from `playlist.m3u`) (Mac and Windows 10 users only)
+When you restart, the program will automatically begin with the file that you left off at (and remove the already downloaded files from `playlist.m3u`) (Mac and Windows 10 only).
 
 Enjoy!
 
 
-**If the script isn't running, you *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal 
-`cd "$(dirname "$0")" chmod a+x download.sh` and press enter.
+**If the script isn't running, you *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal and then press enter:**
+
+`cd "$(dirname "$0")" chmod a+x download.sh`
