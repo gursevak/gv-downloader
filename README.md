@@ -12,8 +12,6 @@ These scripts work with any m3u playlist file and allows batch downloading of al
 The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Guru Granth Sahib Ji Katha by Sant Giani Gurbachan Singh Ji Bhindranwale](http://www.gurmatveechar.com/audio.php?q=f&f=%2FKatha%2F01_Puratan_Katha%2FSant_Gurbachan_Singh_%28Bhindran_wale%29%2FGuru_Granth_Sahib_Larivaar_Katha)
 
 
-Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click.
-
 ## Supported Websites
 
 - [gurmatveechar.com](http://www.gurmatveechar.com/)
@@ -25,12 +23,6 @@ Quickly download large amounts of katha and keertan from GurmatVeechaar.com and 
 - [gurunanakacademy.com](http://gurunanakacademy.com)
 - [rajkaregakhalsa.net](https://www.rajkaregakhalsa.net/)
 - anything other website that provides .m3u playlist files 
-
-## About
-
-These scripts work with any m3u playlist file and allows batch downloading of all the files in the playlist.
-
-The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Guru Granth Sahib Ji Katha by Sant Giani Gurbachan Singh Ji Bhindranwale](http://www.gurmatveechar.com/audio.php?q=f&f=%2FKatha%2F01_Puratan_Katha%2FSant_Gurbachan_Singh_%28Bhindran_wale%29%2FGuru_Granth_Sahib_Larivaar_Katha)
 
 
 ## Windows Instructions
