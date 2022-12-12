@@ -1,5 +1,6 @@
 # Gurmat Veechar Downloader
 
+<<<<<<< HEAD
 Quickly download large amounts of katha and keertan from GurmatVeechar.com and other websites with one click
 
 [https://github.com/gursevak/gv-downloader](https://github.com/gursevak/gv-downloader)
@@ -11,6 +12,9 @@ These scripts work with any m3u playlist file and allows batch downloading of al
 
 The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Guru Granth Sahib Ji Katha by Sant Giani Gurbachan Singh Ji Bhindranwale](http://www.gurmatveechar.com/audio.php?q=f&f=%2FKatha%2F01_Puratan_Katha%2FSant_Gurbachan_Singh_%28Bhindran_wale%29%2FGuru_Granth_Sahib_Larivaar_Katha)
 
+=======
+Quickly download large amounts of katha and keertan from GurmatVeechaar.com and other websites with one click.
+>>>>>>> f8341c375ce913aa14835e9c7539591f86873e7b
 
 ## Supported Websites
 
@@ -22,7 +26,16 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 - [japtapsamagams.com](https://www.japtapsamagams.com/)
 - [gurunanakacademy.com](http://gurunanakacademy.com)
 - [rajkaregakhalsa.net](https://www.rajkaregakhalsa.net/)
+<<<<<<< HEAD
 - anything other website that provides .m3u playlist files 
+=======
+
+## About
+
+These scripts work with any m3u playlist file and allows batch downloading of all the files in the playlist.
+
+The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Guru Granth Sahib Ji Katha by Sant Giani Gurbachan Singh Ji Bhindranwale](http://www.gurmatveechar.com/audio.php?q=f&f=%2FKatha%2F01_Puratan_Katha%2FSant_Gurbachan_Singh_%28Bhindran_wale%29%2FGuru_Granth_Sahib_Larivaar_Katha)
+>>>>>>> f8341c375ce913aa14835e9c7539591f86873e7b
 
 
 ## Windows Instructions
@@ -43,7 +56,10 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 
 ## MacOS Instructions
+<<<<<<< HEAD
 
+=======
+>>>>>>> f8341c375ce913aa14835e9c7539591f86873e7b
 
 1. Download the `playlist.m3u` file for the playlist or folder that you want to download. Playlist files can usually be found on most katha/keertan websites: go to the folder or playlist that you want to download and look for a green 'play button' icon near the top of the folder.
 
@@ -55,6 +71,10 @@ The provided sample `playlist.m3u` file contains the complete [Larivaar Siri Gur
 
 When you restart, the program will automatically begin with the file that you left off at (and remove the already downloaded files from `playlist.m3u`)
 
+<<<<<<< HEAD
+=======
+-----------------------
+>>>>>>> f8341c375ce913aa14835e9c7539591f86873e7b
 **If the script isn't running, you *may* need to change the file's permissions to run the script. To do this, copy/paste the following line into Terminal 
 `cd "$(dirname "$0")" chmod a+x download.sh` and press enter.
 
@@ -86,6 +106,7 @@ Python 3.5 or later
 3. Right click on `Powershell.ps1` and then click on "Run with Powershell" in the Right Click Context Menu.
 
 
+<<<<<<< HEAD
 ## [optional] Using the Bash Script on Windows 10
 
 Optionally, the `download.sh` script can be used on Windows as well using the following instructions:
@@ -170,6 +191,11 @@ Python 3.5 or later
 ## [optional] Using the Bash Script on Windows 10
 
 Optionally, the `download.sh` script can be used on Windows as well using the following instructions:
+=======
+## Using the Bash Script on Windows 10
+
+The `download.sh` script can be used on Windows as well using the following instructions:
+>>>>>>> f8341c375ce913aa14835e9c7539591f86873e7b
 
 1. Install WSL or Windows Subsystem for Linux:
 
