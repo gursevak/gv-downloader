@@ -8,36 +8,23 @@ import easygui as g
 yes_list = ["Y", "y", "yes", "Yes", "YES", "True"]
 no_list = ["N", "n", "no", "No", "NO", "False"]
 
-
 print ("Please follow the on screen prompts.")
-
-
 
 g.msgbox ("Vaheguru Jee Kaa Khalsa Vaheguru Jee Kee Fateh \n"
           "Please make sure that you have already downloaded a playlist.m3u file for which tracks you would like to download. You will be prompted to select the file.", "GV Downloader")
 
-#print ("Vaheguru Jee Kaa Khalsa Vaheguru Jee Kee Fateh")
-#print ("gv-downloader")
-
-#input("The downloader will now ask you to select the playlist.m3u file you have downloaded for which tracks you would like to download. Please press enter to continue...")
-
 path = g.fileopenbox()
       
-    
 file = open (path, "r")
 contents = file.read()
 print(" ")
 print (("Reading file ") + (os.path.basename(file.name)))
 
 
-
 if (os.path.basename(file.name)) != "playlist.m3u":
     oui_2 = g.ynbox(("You selected the file ")+ (os.path.basename(file.name)) + ("\n") +
     ("Are you sure this is the file you meant to select? If yes, the downloader will continue. If no, you will be prompted to select a file again."), "GV Downloader")
-    #print (("You selected the file ") + (os.path.basename(file.name)))
-    #oui = input ("Are you sure this is the file you meant to select? If yes, the downloader will continue. If no, you will be prompted to select a file again.  ")
-
-
+    
     if oui_2 == ("True"):
             pass
     elif oui_2 == ("False"):
@@ -46,23 +33,7 @@ if (os.path.basename(file.name)) != "playlist.m3u":
     file = open (path, "r")
     contents = file.read()
 
-
-
-    #if oui in yes_list:
-    #    pass
-    #elif oui in no_list:
-    #    path = easygui.fileopenbox()
-
-    #    file = open (path, "r")
-    #    contents = file.read()
-
-#else:
-#    pass
-
-
-
-
-    
+  
 split_lines = contents.split()
 
 playlist_length = (len(split_lines))
@@ -73,25 +44,40 @@ if playlist_length == 1:
     
 print("This playlist has " , playlist_length ,  file_plur)
 
-#subfolder_name = input ("What would you like to name the subfolder into which the " + (file_plur) + " will be saved into? ")
-
 g.msgbox ("Please select the folder into which you would like the " + (file_plur) + " to be saved to.", "GV Downloader")
 
 chosen_dir = g.diropenbox()
-
 subfolder_name = chosen_dir
 
+list_to_choose = []
 
+for each in split_lines:
+    list_to_choose.append(each)    
+    
+chooser_msg = "Please choose the tracks that you would like to download. Click on individual tracks to select/deselect."
+chooser_title = "Kirtan Downloader"
+chooser_choices = list_to_choose
+chooser_chosen = g.multchoicebox(chooser_msg, chooser_title, chooser_choices)
 
-#try:
-#    # Create target folder
-#    os.mkdir(subfolder_name)
-#    print("Directory " , subfolder_name ,  " Created ") 
-#except FileExistsError:
-#    print("Directory " , subfolder_name ,  " already exists")
+playlist_length = (len(chooser_chosen))
+
+if playlist_length > 1:
+    file_plur = "files"
+if playlist_length == 1:
+    file_plur = "file" 
+
+print(" ")    
+print("Now downloading " , playlist_length ,  file_plur)    
 print(" ")
-print("Downloading " + file_plur)   
-for url in split_lines:
+    
+for url in chooser_chosen:
+    try:
+        site = urlopen(url)
+    except:
+        if "https" in url:
+            print("welp")
+        else:
+            url = url.replace("http://","https://")
     site = urlopen(url)
     meta = site.info()
 
@@ -109,7 +95,7 @@ for url in split_lines:
         already_size = os.path.getsize(name)
 
         if already_size == total_size:
-            print("The file " + file_name + " already exists. Continueing with next file...")
+            print("The file " + file_name + " already exists. Continuing with next file...")
             continue
         
         elif already_size != total_size:
@@ -126,18 +112,9 @@ for url in split_lines:
                     f.write(data)
             t.close()
             print ("File downloaded: " + file_name)
-
-
-
-            
-            
-
         
         if total_size != 0 and t.n != total_size:
             print("ERROR, something went wrong")
-                
-            
-    
 
     elif not (os.path.exists(name)):
         print("Downloading " + file_name)
@@ -154,22 +131,13 @@ for url in split_lines:
         t.close()
 
         print ("File downloaded: " + file_name)
-
         
         if total_size != 0 and t.n != total_size:
             print("ERROR, something went wrong")
-                
-                
             
 print(" ")
 print("Downloading finished.")
-        
-        
     
 g.msgbox (("Downloads complete. Downloader will now close.") , "GV Downloader")
 
-
 exit()
-
-
-
